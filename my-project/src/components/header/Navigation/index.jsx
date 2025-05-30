@@ -36,12 +36,34 @@ function Navigation() {
                   </Button>
                 </Link>
               </li>
-              <li className="list-none">
+              <li className="list-none relative">
                 <Link to="/" className="link transition text-[14px] font-[500]">
                   <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.5)] hover:!text-[#ff5252] ">
                     Fashion
                   </Button>
                 </Link>
+
+                <div className="submenu absolute top-[120%] left-[0%] min-w-[200px] bg-white shadow-md opacity-0  ">
+                  <ul>
+                    <li className="list-none w-full">
+                      <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none" >Men</Button>
+                    </li>
+                    <li className="list-none w-full">
+                      <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none" >Women</Button>
+                    </li>
+                    <li className="list-none w-full">
+                      <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none" >Kids</Button>
+                    </li>
+                    <li className="list-none w-full">
+                      <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none" >Girls</Button>
+                    </li>
+                    <li className="list-none w-full">
+                      <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none" >Boys</Button>
+                    </li>
+                  </ul>
+                </div>
+
+
               </li>
               <li className="list-none">
                 <Link to="/" className="link transition text-[14px] font-[500]">
