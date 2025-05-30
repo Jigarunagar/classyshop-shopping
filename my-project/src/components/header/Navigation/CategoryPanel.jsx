@@ -120,7 +120,6 @@ function CategoryPanel(props) {
             )}
           </li>
 
-
           <li className="list-none flex items-center relative flex-col">
             <Link to="/" className="w-full">
               <Button className="w-full !text-left !justify-start !px-3 !text-[rgba(0,0,0,0.8)]">
@@ -174,7 +173,7 @@ function CategoryPanel(props) {
                           to="/"
                           className="link w-full !text-left !justify-start !px-3 transition text-[14px]"
                         >
-                         Purse
+                          Purse
                         </Link>
                       </li>
                       <li className="list-none relative mb-1">

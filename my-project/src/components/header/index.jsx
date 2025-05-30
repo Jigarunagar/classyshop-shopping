@@ -5,7 +5,7 @@ import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
 import IconButton from "@mui/material/IconButton";
 import { MdOutlineShoppingCart } from "react-icons/md";
-import { IoIosGitCompare } from "react-icons/io";
+import { LuGitCompareArrows } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa6";
 import Tooltip from "@mui/material/Tooltip";
 import Navigation from "./Navigation/index.jsx";
@@ -84,7 +84,7 @@ const Header = () => {
                 <Tooltip title="Compare">
                   <IconButton aria-label="cart">
                     <StyledBadge badgeContent={4} color="secondary">
-                      <IoIosGitCompare />
+                      <LuGitCompareArrows />
                     </StyledBadge>
                   </IconButton>
                 </Tooltip>
