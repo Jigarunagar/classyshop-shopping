@@ -1,8 +1,11 @@
 import React from 'react'
+import HomeSlider from '../../components/HomeSlider'
 
 function Home() {
   return (
-    <div>hello welcome</div>
+    <>
+    <HomeSlider/>
+    </>
   )
 }
 
