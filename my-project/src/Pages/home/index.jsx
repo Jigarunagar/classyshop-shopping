@@ -7,10 +7,16 @@ function Home() {
     <>
     <HomeSlider/>
     <HomeCartSlider/>
+    
+    <section className='py-5 bg-white'>
+      <div className="container">
+        <div className="freeShipping w-full p-4 border-[black]" >
+          dsd
+        </div>
+      </div>
+    </section>
 
-
-    <br /><br /><br />
-    <br /><br /><br />
+    <br /><br />
     </>
   )
 }
