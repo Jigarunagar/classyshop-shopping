@@ -96,6 +96,45 @@ function Navigation() {
                         <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
                           Women
                         </Button>
+                        <div className="submenu absolute top-[0%] left-[100%] min-w-[150px] bg-white shadow-md opacity-0 transition-all">
+                          <ul>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  T-Shirt
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Jeans
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Footwear
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Watch
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Pents
+                                </Button>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
                       </Link>
                     </li>
                     <li className="list-none w-full">
@@ -103,6 +142,45 @@ function Navigation() {
                         <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
                           Kids
                         </Button>
+                        <div className="submenu absolute top-[0%] left-[100%] min-w-[150px] bg-white shadow-md opacity-0 transition-all">
+                          <ul>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  T-Shirt
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Jeans
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Footwear
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Watch
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Pents
+                                </Button>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
                       </Link>
                     </li>
                     <li className="list-none w-full">
@@ -110,6 +188,45 @@ function Navigation() {
                         <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
                           Girls
                         </Button>
+                        <div className="submenu absolute top-[0%] left-[100%] min-w-[150px] bg-white shadow-md opacity-0 transition-all">
+                          <ul>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  T-Shirt
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Jeans
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Footwear
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Watch
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Pents
+                                </Button>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
                       </Link>
                     </li>
                     <li className="list-none w-full">
@@ -117,11 +234,55 @@ function Navigation() {
                         <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
                           Boys
                         </Button>
+                        <div className="submenu absolute top-[0%] left-[100%] min-w-[150px] bg-white shadow-md opacity-0 transition-all">
+                          <ul>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  T-Shirt
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Jeans
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Footwear
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Watch
+                                </Button>
+                              </Link>
+                            </li>
+                            <li className="list-none w-full">
+                              <Link to="/" className="w-full">
+                                <Button className=" !text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
+                                  Pents
+                                </Button>
+                              </Link>
+                            </li>
+                          </ul>
+                        </div>
                       </Link>
                     </li>
                   </ul>
                 </div>
               </li>
+
+
+
+
+
               <li className="list-none">
                 <Link to="/" className="link transition text-[14px] font-[500]">
                   <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.5)] hover:!text-[#ff5252] ">
@@ -129,6 +290,10 @@ function Navigation() {
                   </Button>
                 </Link>
               </li>
+
+
+
+
               <li className="list-none">
                 <Link to="/" className="link transition text-[14px] font-[500]">
                   <Button className="link transition !font-[500] !text-[rgba(0,0,0,0.5)] hover:!text-[#ff5252] ">
